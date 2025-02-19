@@ -683,7 +683,7 @@ spec:
     name: conjur-openshift-follower-conjur
   - image: registry.connect.redhat.com/cyberark/conjur-openshift-follower-info@sha256:edfcdc1d3e4630d90326f81d253a7b30ab947406f1e04d2488e760fef628e424
     name: conjur-openshift-follower-info
-  - image: registry.connect.redhat.com/cyberark/registry.connect.redhat.com/cyberark/conjur-openshift-follower-nginx@sha256:091946653acc1f79a1e871590560da3a332e0b3be3a22a2e1f6923e66acb5458
+  - image: registry.connect.redhat.com/cyberark/conjur-openshift-follower-nginx@sha256:091946653acc1f79a1e871590560da3a332e0b3be3a22a2e1f6923e66acb5458
     name: conjur-openshift-follower-nginx
   - image: registry.connect.redhat.com/cyberark/conjur-openshift-follower-postgres@sha256:06f4cc44c116f9d91fa17309fc5ffd6c17488a20cae6fa8b16e8e8ecd3f44832
     name: conjur-openshift-follower-postgres
