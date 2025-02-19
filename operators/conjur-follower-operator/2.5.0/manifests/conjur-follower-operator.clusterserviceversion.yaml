@@ -16,13 +16,13 @@ metadata:
           },
           "spec": {
             "images": {
-              "configurator": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-configurator",
-              "conjur": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-conjur",
-              "failoverRebaser": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-failover-rebaser",
-              "info": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-info",
-              "nginx": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-nginx",
-              "postgres": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-postgres",
-              "syslogNg": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-syslog-ng"
+              "configurator": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-configurator@sha256:2c5d37b4fb3565f27b5a88a86470db9685f7748d0f7fb2b54ed160c68aee4972",
+              "conjur": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-conjur@sha256:4fc4f29975766bbd5a8c87e71d1e04bf7cd4b3bb5f985ad3212472cfeed30eb9",
+              "failoverRebaser": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-failover-rebaser@sha256:c5f6d78b339c2697a8eac80dc4042c64730ea38d4eaf4be14aada6682f5f16b6",
+              "info": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-info@sha256:edfcdc1d3e4630d90326f81d253a7b30ab947406f1e04d2488e760fef628e424",
+              "nginx": "registry.connect.redhat.com/cyberark/registry.connect.redhat.com/cyberark/conjur-openshift-follower-nginx@sha256:091946653acc1f79a1e871590560da3a332e0b3be3a22a2e1f6923e66acb5458",
+              "postgres": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-postgres@sha256:06f4cc44c116f9d91fa17309fc5ffd6c17488a20cae6fa8b16e8e8ecd3f44832",
+              "syslogNg": "registry.connect.redhat.com/cyberark/conjur-openshift-follower-syslog-ng@sha256:1638b0591a6d752ce465f9cc43a8f72c887c5a5deee8a393ef9aa3a31f1d67fd"
             },
             "livenessProbeSettings": {
               "postgres": {
